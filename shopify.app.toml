@@ -2,7 +2,7 @@
 
 name = "boa-home-task-TB"
 client_id = "63ea075b807d6246854d17f581f784b1"
-application_url = "https://it-watches-turning-jc.trycloudflare.com"
+application_url = "https://tunnel-receiver-promising-manor.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "read_customers"
 
 [auth]
 redirect_urls = [
-  "https://it-watches-turning-jc.trycloudflare.com/auth/callback",
-  "https://it-watches-turning-jc.trycloudflare.com/auth/shopify/callback",
-  "https://it-watches-turning-jc.trycloudflare.com/api/auth/callback",
-  "https://it-watches-turning-jc.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://tunnel-receiver-promising-manor.trycloudflare.com/auth/callback",
+  "https://tunnel-receiver-promising-manor.trycloudflare.com/auth/shopify/callback",
+  "https://tunnel-receiver-promising-manor.trycloudflare.com/api/auth/callback",
+  "https://tunnel-receiver-promising-manor.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]

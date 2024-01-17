@@ -1,22 +1,23 @@
 import {
-  Banner,
-  useApi,
-  useTranslate,
-  reactExtension,
+    Banner,
+    useApi,
+    reactExtension,
+    Checkbox,
 } from '@shopify/ui-extensions-react/checkout';
 
 export default reactExtension(
-  'purchase.checkout.block.render',
-  () => <Extension />,
+    'purchase.checkout.block.render',
+    () => <Extension />,
 );
 
 function Extension() {
-  const translate = useTranslate();
-  const { extension } = useApi();
 
-  return (
-    <Banner title="checkout-ui">
-      {translate('welcome', {target: extension.target})}
-    </Banner>
-  );
+    return (
+        <Banner title="Save your cart">
+
+            <Checkbox >
+                product
+            </Checkbox>
+        </Banner>
+    );
 }
